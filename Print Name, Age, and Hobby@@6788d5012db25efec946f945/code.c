@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a;
-    char b[99];
-    char c[99];
+    char b[];
+    char c[];
     scanf("%s%d",&b, &a);
     scanf("%s",&c);
     printf("%Name: %s",b[99]);
