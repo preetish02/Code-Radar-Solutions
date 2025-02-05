@@ -2,5 +2,6 @@
 int main(){
     int a,b;
     if(a%b==0){printf("Yes");}
-    else{printf("No")}
+    else{printf("No");}
+    return 0;
 }
