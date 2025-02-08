@@ -7,4 +7,5 @@ int main(){
     else if(ch == 'Y'){printf("Slow Down");}
     else if(ch == 'G'){printf("Go");}
     else{printf("Invalid input");}
+    return 0;
 }
