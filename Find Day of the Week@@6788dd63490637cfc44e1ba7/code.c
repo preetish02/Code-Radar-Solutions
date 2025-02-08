@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     int a;
+    scanf("%d",&a);
     if(a==1){printf("Monday");}
     if else(a==2){printf("Tuesday");}
     if else(a==3){printf("Wednesday");}
