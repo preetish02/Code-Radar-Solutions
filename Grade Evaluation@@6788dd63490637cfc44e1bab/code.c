@@ -2,10 +2,10 @@
 
 int main(){
     char ch;
-    if(ch == 'A'){printd("Excellent");}
-    else if(ch == 'B'){printd("Good");}
-    else if(ch == 'C'){printd("Average");}
-    else if(ch == 'D'){printd("Below Average");}
-    else{printd("Fail");}
-    return 0;
+    if(ch == 'A'){printf("Excellent");}
+    else if(ch == 'B'){printf("Good");}
+    else if(ch == 'C'){printf("Average");}
+    else if(ch == 'D'){printf("Below Average");}
+    else{printf("Fail");}
+    //return 0;
 }
