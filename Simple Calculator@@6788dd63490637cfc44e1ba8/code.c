@@ -2,9 +2,9 @@
 int main(){
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
-    if(c==+){printf(a+b);}
-    else if(c==-){printf(a-b);}
-    else if(c==*){printf(a*b);}
-    else{printf(a/b);}
-    return 0;
+    if(c=='+'){printf("%d,"a+b);}
+    else if(c=='-'){printf("%d",a-b);}
+    else if(c=='*'){printf("d",a*b);}
+    else{printf("%d",a/b);}
+    return
 }
