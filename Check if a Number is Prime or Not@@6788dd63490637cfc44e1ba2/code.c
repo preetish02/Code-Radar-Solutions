@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
   int n, i, f = 0;
-  printf("Enter a positive integer: ");
   scanf("%d", &n);
   if (n == 0 || n == 1)
     f = 1;
@@ -12,8 +11,8 @@ int main() {
     }
   }
   if (f == 0)
-    printf("%d is a prime number.", n);
+    printf("Prime");
   else
-    printf("%d is not a prime number.", n);
+    printf("Not Prime");
    return 0;
 }
