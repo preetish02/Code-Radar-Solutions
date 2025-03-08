@@ -6,6 +6,6 @@ int main(){
         int a=0;
         a += i;
 
-        printf("%d",a);
-    }return 0;
+    }printf("%d",a);
+    return 0;
 }
