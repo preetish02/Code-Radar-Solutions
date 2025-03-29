@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to perform Bubble Sort
-void bubblesort(int arr[], int n) {
+void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) { // Run (n-1) times
         for (int j = 0; j < n - i - 1; j++) { // Last i elements are sorted
             if (arr[j] > arr[j + 1]) { // Correct comparison
@@ -22,7 +22,7 @@ void printarray(int arr[], int n) {
 }
 
 // Main function
-int main() {
+int main(){
     int n;
     scanf("%d", &n);
 
@@ -33,7 +33,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    bubblesort(arr, n);
+    bubbleSort(arr, n);
     printarray(arr, n);
 
     return 0;
