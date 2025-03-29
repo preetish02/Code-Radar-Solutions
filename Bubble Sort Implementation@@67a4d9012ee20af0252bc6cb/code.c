@@ -24,24 +24,16 @@ void printarray(int arr[], int n) {
 // Main function
 int main() {
     int n;
-    
-    // Take input for array size
-    printf("Enter number of elements: ");
     scanf("%d", &n);
 
     int arr[n]; // Declare array
 
     // Input array elements
-    printf("Enter %d elements: ", n);
+    printf("%d", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-    // Sort the array
     bubblesort(arr, n);
-
-    // Print the sorted array
-    printf("Sorted array: ");
     printarray(arr, n);
 
     return 0;
