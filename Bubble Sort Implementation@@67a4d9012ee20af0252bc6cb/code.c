@@ -21,7 +21,6 @@ void printArray(int arr[], int n) {
     //printf("\n"); // Print newline correctly
 }
 
-// Main function
 int main(){
     int n;
     scanf("%d", &n);
