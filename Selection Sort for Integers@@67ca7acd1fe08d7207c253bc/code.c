@@ -2,8 +2,8 @@
 #include<limits.h>
 void selection(int arr[],int n){
     for(int i=0;i<n-1;i++){
-        min = INT_MAX;
-        minidx = -1;
+        int min = INT_MAX;
+        int minidx = -1;
         for(int j=i;j<=n-1;j++){
             if(min>arr[j]){
                 min = arr[j];
