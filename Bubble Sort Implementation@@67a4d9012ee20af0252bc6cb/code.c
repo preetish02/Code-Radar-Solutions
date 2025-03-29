@@ -18,7 +18,7 @@ void printarray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
-    printf("\n"); // Print newline correctly
+    //printf("\n"); // Print newline correctly
 }
 
 // Main function
