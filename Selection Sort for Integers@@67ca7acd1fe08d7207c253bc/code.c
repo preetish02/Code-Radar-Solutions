@@ -2,11 +2,9 @@
 #include<limits.h>
 void selection(int arr[],int n){
     for(int i=0;i<n-1;i++){
-        int min = INT_MAX;
-        int minidx = -1;
+        int minidx = i;
         for(int j=i;j<=n-1;j++){
-            if(min>arr[j]){
-                min = arr[j];
+            if(arr[minidx]>arr[j]){
                 minidx = j;
             }
         }
