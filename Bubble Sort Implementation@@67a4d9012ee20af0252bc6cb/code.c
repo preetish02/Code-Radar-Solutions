@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-// Function to perform Bubble Sort
-void bubbleSort(int arr[], int n) {
+int bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) { // Run (n-1) times
         for (int j = 0; j < n - i - 1; j++) { // Last i elements are sorted
             if (arr[j] > arr[j + 1]) { // Correct comparison
@@ -14,7 +13,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 // Function to print the array
-void printArray(int arr[], int n) {
+int printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
