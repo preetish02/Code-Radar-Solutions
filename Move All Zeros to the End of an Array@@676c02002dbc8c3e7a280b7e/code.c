@@ -11,9 +11,8 @@ int main(){
             int t = arr[i];
             arr[i] = arr[i+1]; 
             arr[i+1] = t;
-            
         }
-    }printf("%d ",arr[i]);
+    }printf("%d ",arr);
     
     
 }
