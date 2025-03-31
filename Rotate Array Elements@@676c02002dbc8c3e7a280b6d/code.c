@@ -33,7 +33,7 @@ int main() {
     }
 
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]); // Added spaces for readability
+        printf("%d\n ", arr[i]); // Added spaces for readability
     }
     printf("\n"); // Add a newline at the end
 
