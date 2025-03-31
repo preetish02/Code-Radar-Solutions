@@ -11,8 +11,8 @@ int main(){
         }
     }
     int product = 1;
-    for(int i=0;i<n;i++){
-        product = product*arr[n]*arr[n-1];
-        printf("%d",product);
+    if (n >= 2) { // Ensure there are at least 2 elements
+        int product = arr[n - 1] * arr[n - 2];
+        printf("%d\n", product);
     }
-    }
+}
