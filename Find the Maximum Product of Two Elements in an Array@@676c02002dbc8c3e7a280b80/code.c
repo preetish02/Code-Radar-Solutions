@@ -10,5 +10,9 @@ int main(){
             arr[i+1] = temp;
         }
     }
-    printf("%d",arr[n]);
+    int product = 1;
+    for(int i=0;i<n;i++){
+        product = product*arr[n]*arr[n-1];
+        printf("%d",product);
+    }
     }
