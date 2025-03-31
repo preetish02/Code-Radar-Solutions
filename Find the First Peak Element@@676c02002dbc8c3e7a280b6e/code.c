@@ -17,7 +17,7 @@ int main() {
         }
     }
 
-    if (peakFound != 1) {
+    if (peakFound==0) {
         printf("-1"); // No peak found
     }
 
