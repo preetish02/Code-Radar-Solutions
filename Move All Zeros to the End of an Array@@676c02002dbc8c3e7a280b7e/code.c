@@ -12,7 +12,7 @@ int main(){
             arr[i] = arr[i+1]; 
             arr[i+1] = t;
         }
-    }printf("%d ",arr);
+    }printf("%d ",arr[n]);
     
     
 }
