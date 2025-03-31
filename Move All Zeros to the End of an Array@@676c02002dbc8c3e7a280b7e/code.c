@@ -8,8 +8,9 @@ int main(){
     int k = 0;
     for(int i=0;i<n;i++){
         if(arr[i]==k){
-            //i == (n-1);
-            arr[i] = arr[n-1]; 
+            int t = arr[i];
+            arr[i] = arr[i+1]; 
+            arr[i+1] = t;
             printf("%d",arr[i]);
         }
     }
