@@ -1,4 +1,4 @@
-#include<Stdio.h>
+#include<stdio.h>
 void reverse(int arr[],int i, int j){
     int n;
     for(i=0;i<n;i++){
