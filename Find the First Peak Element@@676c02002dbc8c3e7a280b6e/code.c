@@ -6,11 +6,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int k = -1;
+    //int k = -1;
     for(int i=0;i<n;i++){
-        if(arr[i]>k){
-            k = arr[i];
+        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
+            break;
         }
-    }printf("%d",k);
+    }//printf("%d",k);
 
 }
