@@ -8,17 +8,18 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int peakFound = 0;
+    int peakFound = 0; // Flag to check if a peak is found
+
     for (int i = 0; i < n; i++) {
-        if ((i == 0 || arr[i] >= arr[i - 1]) && (i == (n - 1) || arr[i] >= arr[i + 1])) {
+        if ((i == 0 || arr[i] >= arr[i - 1]) && (i == n - 1 || arr[i] >= arr[i + 1])) {
             printf("%d\n", arr[i]);
             peakFound = 1;
             break; // Found the first peak, exit loop
         }
     }
 
-    if (peakFound==0) {
-        printf("-1"); // No peak found
+    if (!peakFound) {
+        printf("-1\n"); // No peak found
     }
 
     return 0;
