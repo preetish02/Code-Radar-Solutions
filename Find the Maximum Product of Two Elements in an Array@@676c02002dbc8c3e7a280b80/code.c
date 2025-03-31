@@ -21,13 +21,11 @@ int main() {
         }
     }
 
-    // Calculate the product of the two largest elements
-    if (n >= 2) { // Ensure there are at least 2 elements
+    if (n >= 2 && arr[n]>=0) { 
         int product = arr[n - 1] * arr[n - 2];
         printf("%d\n", product);
-    } else {
-        printf("Array size must be at least 2 to calculate the product.\n");
+    } 
+    else if(n>=2 && arr[n]<0){
+        int product = arr[0] * arr[1];
     }
-
-    return 0;
 }
