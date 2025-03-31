@@ -10,7 +10,6 @@ int main(){
             arr[i+1] = temp;
         }
     }
-    int product = 1;
     if (n >= 2) { // Ensure there are at least 2 elements
         int product = arr[n - 1] * arr[n - 2];
         printf("%d\n", product);
