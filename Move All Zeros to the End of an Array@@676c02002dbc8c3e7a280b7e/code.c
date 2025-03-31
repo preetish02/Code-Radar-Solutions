@@ -13,5 +13,5 @@ int main(){
             arr[i+1] = t;
         }}
     for(int i=0;i<n;i++){
-        printf("%d ",&arr[i]);}
+        printf("%d ",arr[i]);}
 }
