@@ -18,5 +18,3 @@ int main(){
             break;
         }}
     }//printf("%d",k);
-
-}
