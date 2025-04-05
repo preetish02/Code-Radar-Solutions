@@ -27,4 +27,4 @@ int main()
     }
     printf("%d",count);
     
-}Loading Code...
+}
