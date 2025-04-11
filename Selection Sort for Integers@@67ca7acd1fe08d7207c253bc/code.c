@@ -13,11 +13,7 @@ void selection(int arr[],int n){
         arr[i] = temp;
     }
 }
-void printarray(int arr[],int n){
-    for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
-    }
-}
+
 int main(){
     int n;
     scanf("%d",&n);
@@ -26,5 +22,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     selection(arr,n);
-    printarray(arr,n);
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
 }
