@@ -27,4 +27,4 @@ int main(){
     }
     selectionsort(arr,n);
     printarray(arr,n);
-}/
+}
