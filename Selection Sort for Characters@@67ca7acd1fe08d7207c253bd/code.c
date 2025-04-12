@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void selectionSort(int arr[],int n){
+void selectionSort(char arr[],int n){
     for(char i=0;i<n-1;i++){
         int minidx = i;
         for(char j=i;j<=n-1;j++){
@@ -13,7 +13,7 @@ void selectionSort(int arr[],int n){
         arr[i] = temp;
     }
 }
-void printArray(int arr[],int n){
+void printArray(char arr[],int n){
     for(char i=0;i<n;i++){
         printf("%c ",arr[i]);
     }
