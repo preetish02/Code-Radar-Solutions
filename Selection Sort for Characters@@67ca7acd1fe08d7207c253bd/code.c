@@ -19,10 +19,10 @@ void printarray(int arr[],int n){
     }
 }
 int main(){
-    int n;
+    char n;
     scanf("%d",&n);
     int arr[n];
-    for(int i=0;i<n;i++){
+    for(char i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     selectionsort(arr,n);
